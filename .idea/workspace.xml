@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f0a7881-84e6-4339-a518-7df21277c3bd" name="Changes" comment="Udemy. Java Advanced. Maven and Testing. &#10;Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MyMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/NetworkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/MyMathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/NetworkUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/Vector2DTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2f0a7881-84e6-4339-a518-7df21277c3bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/MyStringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/NetworkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/NetworkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/NetworkUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/NetworkUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +48,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,16 +59,44 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.udemy.java_advanced" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.udemy.java_advanced" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.NetworkUtilsTest.getConnectionShouldTakeLessThan1Second">
-    <configuration name="MyMathTest.ZeroDivisorShouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NetworkUtilsTest">
+    <configuration name="MyStringTest.abortedTestExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_and_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.MyMathTest" />
-      <option name="METHOD_NAME" value="ZeroDivisorShouldThrowException" />
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.MyStringTest" />
+      <option name="METHOD_NAME" value="abortedTestExample1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStringTest.assumeStringMayContain_Z_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_and_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.MyStringTest" />
+      <option name="METHOD_NAME" value="assumeStringMayContain_Z_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkUtilsTest.getConnectionShouldTakeLessThan1Second" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Vector2DTest.abortedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
@@ -99,27 +126,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.NetworkUtilsTest" />
-      <option name="METHOD_NAME" value="getConnectionShouldTakeLessThan1Second" />
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.Vector2DTest" />
+      <option name="METHOD_NAME" value="abortedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vector2DTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Vector2DTest.abortedTestExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maven_and_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
       <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.Vector2DTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vector2DTest.newVectorSchouldHaveZeroLenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven_and_testing" />
-      <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.Vector2DTest" />
-      <option name="METHOD_NAME" value="newVectorSchouldHaveZeroLenght" />
+      <option name="METHOD_NAME" value="abortedTestExample1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NetworkUtilsTest.getConnectionShouldTakeLessThan1Second" />
         <item itemvalue="JUnit.NetworkUtilsTest" />
-        <item itemvalue="JUnit.MyMathTest.ZeroDivisorShouldThrowException" />
-        <item itemvalue="JUnit.Vector2DTest" />
-        <item itemvalue="JUnit.Vector2DTest.newVectorSchouldHaveZeroLenght" />
+        <item itemvalue="JUnit.MyStringTest.assumeStringMayContain_Z_" />
+        <item itemvalue="JUnit.MyStringTest.abortedTestExample1" />
+        <item itemvalue="JUnit.Vector2DTest.abortedTestExample1" />
+        <item itemvalue="JUnit.Vector2DTest.abortedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,8 +168,16 @@
       <option name="presentableId" value="Default" />
       <updated>1665178067977</updated>
       <workItem from="1665178070082" duration="406000" />
-      <workItem from="1665327648642" duration="6348000" />
+      <workItem from="1665327648642" duration="9898000" />
     </task>
+    <task id="LOCAL-00001" summary="Lesson 39 'Junit. PartI' was added.">
+      <created>1665347477371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665347477371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Udemy. Java Advanced. Maven and Testing. &#10;Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Udemy. Java Advanced. Maven and Testing. &#10;Initial commit" />
+    <MESSAGE value="Lesson 39 'Junit. PartI' was added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 39 'Junit. PartI' was added." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
