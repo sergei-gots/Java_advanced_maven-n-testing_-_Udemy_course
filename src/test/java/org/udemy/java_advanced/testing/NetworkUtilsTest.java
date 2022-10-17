@@ -1,6 +1,7 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.testing;
 
 import org.junit.jupiter.api.RepeatedTest;
+import org.udemy.java_advanced.testing.NetworkUtils;
 
 import static java.time.Duration.ofSeconds;
 import static org.junit.jupiter.api.Assertions.assertTimeout;

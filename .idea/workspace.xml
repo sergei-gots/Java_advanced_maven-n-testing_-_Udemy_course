@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f0a7881-84e6-4339-a518-7df21277c3bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L41_TestOverrideAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L42_AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L43_TestReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MethodInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/L44_ReflectionAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L41_TestOverrideAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/L41_TestOverrideAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L42_AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/L42_AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/L43_TestReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/L43_ReflectionAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/MethodInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/testing/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/testing/MyString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/NetworkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/testing/NetworkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/reflection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemy/java_advanced/testing/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/MyMathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/testing/MyMathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/MyStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/testing/MyStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/NetworkUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/testing/NetworkUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/Vector2DTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/udemy/java_advanced/testing/Vector2DTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,19 +74,20 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.udemy.java_advanced.testing" />
       <recent name="org.udemy.java_advanced" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.udemy.java_advanced" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.L43_TestReflection">
-    <configuration name="L41_TestAnnotationOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.org.udemy.java_advanced.reflection.L44_ReflectionAPI">
+    <configuration name="org.udemy.java_advanced.L41_TestAnnotationOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.L41_TestAnnotationOverride" />
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="PATTERN" value="org.udemy.java_advanced.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L43_TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.L43_TestReflection" />
+    <configuration name="org.udemy.java_advanced.reflection.L43_ReflectionAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.reflection.L43_ReflectionAPI" />
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="PATTERN" value="org.udemy.java_advanced.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,18 +108,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStringTest.abortedTestExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="org.udemy.java_advanced.reflection.L44_ReflectionAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.reflection.L44_ReflectionAPI" />
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="PATTERN" value="org.udemy.java_advanced.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.MyStringTest" />
-      <option name="METHOD_NAME" value="abortedTestExample1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,12 +125,12 @@
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="PATTERN" value="org.udemy.java_advanced.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.MyStringTest" />
+      <option name="PACKAGE_NAME" value="org.udemy.java_advanced.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.testing.MyStringTest" />
       <option name="METHOD_NAME" value="assumeStringMayContain_Z_" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,12 +141,12 @@
       <module name="maven_and_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.udemy.java_advanced.*" />
+          <option name="PATTERN" value="org.udemy.java_advanced.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.udemy.java_advanced" />
-      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.NetworkUtilsTest" />
+      <option name="PACKAGE_NAME" value="org.udemy.java_advanced.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.udemy.java_advanced.testing.NetworkUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.L43_TestReflection" />
-        <item itemvalue="Application.L41_TestAnnotationOverride" />
+        <item itemvalue="Application.org.udemy.java_advanced.reflection.L44_ReflectionAPI" />
+        <item itemvalue="Application.org.udemy.java_advanced.reflection.L43_ReflectionAPI" />
+        <item itemvalue="Application.org.udemy.java_advanced.L41_TestAnnotationOverride" />
         <item itemvalue="JUnit.NetworkUtilsTest" />
         <item itemvalue="JUnit.MyStringTest.assumeStringMayContain_Z_" />
-        <item itemvalue="JUnit.MyStringTest.abortedTestExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +172,8 @@
       <updated>1665178067977</updated>
       <workItem from="1665178070082" duration="406000" />
       <workItem from="1665327648642" duration="9898000" />
-      <workItem from="1665929009595" duration="13082000" />
+      <workItem from="1665929009595" duration="16429000" />
+      <workItem from="1666014344820" duration="1309000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 39 'Junit. PartI' was added.">
       <created>1665347477371</created>
@@ -175,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665347477371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lessons 41,42,43 &quot;Annotations, Reflection&quot; are added.">
+      <created>1665955955921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665955955922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,10 +198,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Udemy. Java Advanced. Maven and Testing. &#10;Initial commit" />
     <MESSAGE value="Lesson 39 'Junit. PartI' was added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 39 'Junit. PartI' was added." />
+    <MESSAGE value="Lessons 41,42,43 &quot;Annotations, Reflection&quot; are added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons 41,42,43 &quot;Annotations, Reflection&quot; are added." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_advanced_maven_and_testing$L44_ReflectionAPI.ic" NAME="L44_ReflectionAPI Coverage Results" MODIFIED="1666014148372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.udemy.java_advanced.*</FILTER>
+    </SUITE>
   </component>
 </project>

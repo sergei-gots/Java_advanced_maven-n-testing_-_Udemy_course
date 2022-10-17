@@ -1,4 +1,4 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.testing;
 
 public class MyString  {
     String string = "abc";

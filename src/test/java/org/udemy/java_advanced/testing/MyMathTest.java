@@ -1,7 +1,7 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.testing;
 
 import org.junit.jupiter.api.Test;
-import org.udemy.java_advanced.MyMath;
+import org.udemy.java_advanced.testing.MyMath;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;

@@ -1,4 +1,4 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.reflection;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -9,14 +9,14 @@ import java.lang.reflect.Parameter;
 
 import static java.lang.System.out;
 
-public class L43_TestReflection {
+public class L43_ReflectionAPI {
     public static void main(String[] args) {
         Class personClass = Person.class;
         Person person = new Person();
         Class personClass1 = person.getClass();
         Class personClass2 = null;
         try {
-            personClass2 = Class.forName("org.udemy.java_advanced.Person");
+            personClass2 = Class.forName("org.udemy.java_advanced.reflection.Person");
         }
         catch (ClassNotFoundException e) {
             e.printStackTrace();

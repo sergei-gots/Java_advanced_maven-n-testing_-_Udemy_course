@@ -1,7 +1,8 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.testing;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
+import org.udemy.java_advanced.testing.MyString;
 
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
 

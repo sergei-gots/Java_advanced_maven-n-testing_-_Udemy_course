@@ -1,8 +1,8 @@
-package org.udemy.java_advanced;
+package org.udemy.java_advanced.testing;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.udemy.java_advanced.Vector2D;
+import org.udemy.java_advanced.testing.Vector2D;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assumptions.assumeTrue;
